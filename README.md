@@ -1,5 +1,5 @@
 # Raspberry Pi - Centralised Air Purifying System
-A completely autonomous and centralised air purifying system for your home. I and [@jailbreakervc](https://github.com/jailbreakerVC) built this prototype as our project for the [Hack the Mountains 3.0] (https://www.hackthemountain.tech/) hackathon.
+A completely autonomous and centralised air purifying system. I and [sync-codes](https://github.com/sync-codes) built this prototype as our project for the [Hack the Mountains 3.0] (https://www.hackthemountain.tech/) hackathon.
 
 ## Tech Stack
 - Raspberry Pi 4
@@ -17,5 +17,5 @@ The idea was to build a centralised network of air purifiers which can turn them
 The presentation which we made for the project at HTM can be found [here](https://bit.ly/3xIzzFI). 
 
 ## How it Works
-The whole project is hosted on the rpi4 making it a standalone entity. For the frontend admin dashboard, we used Vue.js and Tailwind CSS for the UI. The air quality data was taken from the OpenWeather API to simultate the data we would get from a hardware sensor and the Twilio API was used to send SMS alerts to the user. The data was stored in a MongoDB database to interface between the backend and the Raspberry Pi.
+The whole project is hosted on the rpi4. For the frontend admin dashboard, we used Vue.js and Tailwind CSS for the UI. The air quality data was taken from the OpenWeather API to simultate the data we would get from a hardware sensor and the Twilio API was used to send SMS alerts to the user. The data was stored in a MongoDB database to interface between the backend and the Raspberry Pi.
 
